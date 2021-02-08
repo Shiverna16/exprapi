@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start-old": "node ./bin/www",
-    "start": "nodemon — exec babel-node ./bin/www",
-    "build": "babel ./bin/www --out-file index-compiled.js"
+    "start": "node app.js",
+    "build": "babel  -d dist"
   },
   "dependencies": {
     "@babel/node": "^7.12.13",
@@ -19,6 +19,7 @@
     "nodemon": "^2.0.7"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.13",
     "@babel/core": "^7.12.13",
     "@babel/preset-env": "^7.12.13"
   }
