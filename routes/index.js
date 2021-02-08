@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/user', function(req, res, next) {
-    return res.json({status: "true", message: "", user: {id: 1, name: 'mohan', city: 'San Antonio'}});
+    return res.json({status: "true", message: "", user: {id: 1, name: 'Mohanavelu', city: 'San Antonio', service: "Devops CICD"}});
 });
 
 router.get('/process', function(req, res, next) {
