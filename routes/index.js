@@ -11,7 +11,7 @@ router.get('/user', function(req, res, next) {
 });
 
 router.get('/process', function(req, res, next) {
-  return res.json({status: "true", message: process.env.APPSETTING_SENDGRID_API_KEY, key: process.env.SENDGRID_API_KEY, env_variables: process.env});
+  return res.json({status: "true", message: process.env.APPSETTING_SENDGRID_APIKEY, key: process.env.SENDGRID_APIKEY, env_variables: process.env});
 });
 
 module.exports = router;
