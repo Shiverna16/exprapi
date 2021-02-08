@@ -5,7 +5,7 @@
   "scripts": {
     "start-old": "node ./bin/www",
     "start": "node app.js",
-    "build": "babel  -d dist"
+    "build": "babel app.js -d dist"
   },
   "dependencies": {
     "@babel/node": "^7.12.13",
