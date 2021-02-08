@@ -6,6 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+
 router.get('/user', function(req, res, next) {
     return res.json({status: "true", message: "", user: {id: 1, name: 'Mohanavelu kumarsamy', city: 'San Antonio', service: "Devops CICD"}});
 });
