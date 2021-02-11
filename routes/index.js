@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 
 router.get('/user', function(req, res, next) {
-    return res.json({status: "true", message: "", user: {id: 1, name: 'Mohanavelu kumarsamy', city: 'San Antonio', service: "Devops CICD", cc_address: process.env.CC_MAIL_ADDRESS}});
+    return res.json({status: "true", message: "", user: {id: 1, name: 'Mohanavelu kumarsamy', city: 'San Antonio', State: 'TX',  service: "Devops CICD", cc_address: process.env.CC_MAIL_ADDRESS}});
 });
 
 router.get('/process', function(req, res, next) {
