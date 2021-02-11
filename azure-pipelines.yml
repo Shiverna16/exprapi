@@ -12,10 +12,10 @@ variables:
   azureSubscription: 'ea6df074-a4f3-4256-a320-986b40e5092b'
 
   # Web app name
-  webAppName: 'exprapi'
+  webAppName: 'exprapiyml'
 
   # Environment name
-  environmentName: 'exprapi'
+  environmentName: 'exprapiyml'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
