@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  figlet("Hello World !!!" , (err, data) => {
+  figlet("Docker is AMAZE !!!" , (err, data) => {
     if(err){
       console.log("Something went wrong");
       console.dir(err);
