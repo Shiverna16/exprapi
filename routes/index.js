@@ -1,9 +1,17 @@
 var express = require('express');
+const figlet = require('figlet');
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  figlet("Hello World !!!" , (err, data) => {
+    if(err){
+      console.log("Something went wrong");
+      console.dir(err);
+      return;
+    }
+    res.render('index', { title: 'Express', text: data });
+  });
 });
 
 
